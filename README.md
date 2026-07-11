@@ -1,2 +1,184 @@
 # powerbi-d2c-skincare-analysis
 An end-to-end Business Intelligence project built using **Power BI**, **Power Query**, and **DAX** to analyze a Direct-to-Consumer (D2C) skincare business. The dashboard provides insights into sales performance, customer behavior, product profitability, order fulfillment, and product returns through interactive visualizations.
+
+---
+
+## Project Overview
+
+This project transforms raw transactional data into actionable business insights by performing data cleaning, feature engineering, data modeling, and interactive dashboard development.
+
+The dashboard is designed to help business stakeholders answer questions such as:
+
+- Which products generate the highest profit?
+- Which customer acquisition channels bring the most loyal customers?
+- How are orders performing over time?
+- What is the overall return rate?
+- Which product categories contribute the most revenue?
+- What are the primary reasons for product returns?
+
+---
+
+## Tools & Technologies
+
+- Microsoft Power BI
+- Power Query Editor
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Git & GitHub
+
+---
+
+## Dataset
+
+**Source:** Kaggle – D2C Skincare Dataset
+
+The dataset contains information related to:
+
+- Customers
+- Orders
+- Order Items
+- Products
+- Returns
+- Reviews
+
+> **Note:** The dataset belongs to its original creator and is used solely for educational and portfolio purposes.
+
+---
+
+# Dashboard Pages
+
+## Page 1 – Executive Dashboard
+
+Provides a high-level overview of business performance through key metrics and executive visualizations.
+
+### KPI Cards
+
+- Total Revenue
+- Total Profit
+- Total Orders
+- Total Customers
+- Return Rate
+
+### Visualizations
+
+- Order Trend
+- Order Fulfillment Status
+- Customer Retention by Acquisition Channel
+- Top 10 Most Profitable Products
+- Gender based Retention
+- Customer distribution across India
+---
+
+## Page 2 – Customer & Product Insights
+
+Focuses on customer segmentation, product performance, and operational analysis.
+
+Includes:
+
+- Product Category Performance by Quarter (Ribbon Chart)
+- Gender-based Customer Retention
+- Return Reason Analysis
+- Customer Segmentation
+- Product Performance Insights
+
+---
+
+# Data Preparation
+
+The dataset was transformed using Power Query before loading into the data model.
+
+Key transformations include:
+
+- Changed data types
+- Removed null values where necessary
+- Created customer segments
+- Created acquisition channel categories
+- Created payment categories
+- Calculated shipping duration
+- Created customer loyalty classification
+- Categorized return reasons
+- Calculated discount percentage
+- Built profitability metrics
+- Created order status summary tables
+- Merged related tables for customer analytics
+
+---
+
+# Business Metrics
+
+The dashboard includes several analytical KPIs:
+
+- Total Revenue
+- Total Profit
+- Average Order Value (AOV)
+- Return Rate
+- Customer Count
+- Order Count
+- Product Profitability
+- Customer Loyalty Distribution
+
+---
+
+# Business Questions Answered
+
+The report helps answer questions such as:
+
+- Which acquisition channels generate the most loyal customers?
+- Which products contribute the highest profit?
+- How do revenues change over time?
+- What percentage of orders are returned?
+- Which customer segments purchase the most?
+- Which product categories drive revenue?
+- What are the leading causes of product returns?
+
+---
+
+# Dashboard Preview
+
+## Executive Dashboard
+
+*(Add screenshot here)*
+
+---
+
+## Customer & Product Insights
+
+*(Add screenshot here)*
+
+---
+
+# Repository Structure
+
+```
+d2c-skincare-powerbi-dashboard/
+│
+├── Dashboard.pbix
+├── README.md
+├── dashboard-images/
+│   ├── executive-dashboard.png
+│   └── customer-product-insights.png
+├── assets/
+└── LICENSE
+```
+
+---
+
+# Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- Power Query
+- DAX
+- Business Intelligence
+- Dashboard Design
+- KPI Development
+- Customer Analytics
+- Sales Analytics
+- Product Profitability Analysis
+
+---
+
+
+
+-
